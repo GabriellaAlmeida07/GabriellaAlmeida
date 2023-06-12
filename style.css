@@ -1,0 +1,102 @@
+h1 {
+    top: 2%;
+    position: absolute;
+    left: 2%;
+    font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+}
+
+@media screen and (min-width: 400px){
+.carousel-inner img {
+    opacity: 80%;
+    filter: brightness(40%);
+  }
+
+.carousel {
+    margin: auto;
+  }
+
+.carousel-inner{
+    position: absolute;
+    margin-top: 0%;
+    width: 100%;
+ } 
+} 
+
+ @media screen and (min-width: 600px) {
+  .formulario {
+    position: absolute;
+    top: 25%;
+    left: 29%;
+    background-color: rgb(255, 255, 255);
+    height: 55%;
+    width: 42%;
+    border-radius: 20px;
+    padding: 60px;
+    z-index: 1;
+    border-style: inset ;
+    border-color: rgb(161, 156, 156);
+ }
+}
+
+.menu {
+  text-decoration: none;
+  left: 90%;
+  top: 0%;
+  position: absolute;
+  
+}
+
+h1{
+    padding: 10px;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(62, 24, 196), rgb(65, 216, 216)) 1;
+
+}
+
+@media screen and (min-width: 100px){
+.container {
+  position: absolute;
+  top: 70%;
+  padding: 8%;
+  left: 18%;
+}
+
+.card-columns img{
+  width: 35px;
+  height: 35px;
+}
+}
+
+p{
+  color: rgb(12, 12, 12);
+}
+
+.btn{
+  display: none;
+  width: 250px;
+  height: 10px;
+  text-decoration: none;
+  border-style: none 
+}
+
+#conteudo{
+  display: none;
+  position: absolute;
+  top: 95%;
+  left: 52%;
+  width: 15%;
+  height: 9%;
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(62, 24, 196), rgb(65, 216, 216)) 1;
+  text-align: center;
+  
+}

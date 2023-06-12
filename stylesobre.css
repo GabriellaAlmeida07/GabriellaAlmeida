@@ -1,0 +1,85 @@
+body{
+    background-color: black
+}
+
+h1{
+    color: aliceblue;
+    font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+    position: fixed;
+    left: 3%;
+}
+
+.linha{
+    position: absolute;
+    left: 0;
+    top: 15%;
+    height: 3px;
+    width: 500px;
+    background-image: linear-gradient(to right, transparent, black);
+    background-color: rgb(145, 145, 145);
+
+}
+
+
+.linha2{
+    position: absolute;
+    left: 35%;
+    top: 75%;
+    height: 3px;
+    width: 500px;
+    background-image: linear-gradient(to right,  black, transparent);
+    background-color: rgb(145, 145, 145);
+
+}
+
+img{
+    position: fixed;
+    right: 3%;
+    width: 300px;
+    height: 300px;
+    margin-top: 0;
+ 
+}
+
+.menu {
+    text-decoration: none;
+    left: 93%;
+    top: -2%;
+    position: fixed;
+    
+}
+
+
+
+
+h2 p{
+    color: rgb(182, 182, 182)
+}
+
+h2{
+    width: 50%;
+    height: 30%;
+    position: absolute;
+    top: 25%;
+    left: 5%
+}
+
+.icons p{
+    margin-left: 3%;
+    margin-top: 45%;
+    color: aliceblue;
+    position: relative;
+    margin-right: 2%;
+    display: inline-block
+}
+
+.icons p img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    margin-right: 1%;
+    display: inline-block
+  
+
+}
+
